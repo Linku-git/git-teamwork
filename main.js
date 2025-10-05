@@ -90,96 +90,91 @@ print(greet("World"))
 
         <p>Start your Python journey today — write your first line of code and discover how simple it is to bring your ideas to life!</p>
     `
-},
-{
+},{
     id: 'article-3',
-        title: 'Getting Started with Git',
-        author: 'Example Student',
-        created: 'October 5, 2025',
-        excerpt: 'Learn the basics of Git version control and how to collaborate with your team effectively.',
-        image: 'https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=800',
-        content: `
-            <h2>Introduction to Git</h2>
-            <p>Git is a distributed version control system that helps teams collaborate on code. It allows multiple developers to work on the same project simultaneously without conflicts.</p>
-            
-            <h3>Why Use Git?</h3>
-            <p>Git provides several benefits:</p>
-            <ul>
-                <li>Track changes in your code over time</li>
-                <li>Collaborate with team members efficiently</li>
-                <li>Revert to previous versions if needed</li>
-                <li>Work on different features in parallel using branches</li>
-            </ul>
-            
-            <h3>Basic Git Commands</h3>
-            <p>Here are some essential Git commands:</p>
-            <ul>
-                <li><strong>git clone:</strong> Copy a repository to your local machine</li>
-                <li><strong>git add:</strong> Stage changes for commit</li>
-                <li><strong>git commit:</strong> Save your changes</li>
-                <li><strong>git push:</strong> Upload your changes to the remote repository</li>
-                <li><strong>git pull:</strong> Download and merge changes from the remote repository</li>
-            </ul>
-            
-            <p>Mastering Git is essential for modern software development and collaboration!</p>
-        `
-    }
-,{
-    id: 'article-4',
-    title: 'Getting Started with Python',
-    author: 'Ayoub Karim',
+    title: 'Using AI to Build Web Programs with HTML, CSS, and JavaScript',
+    author: 'Mohamed Amine Aghbal',
     created: 'October 5, 2025',
-    excerpt: 'Discover the essentials of Python programming — from setup to core concepts — and learn why it remains one of the most popular languages in the world.',
-    image: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800',
+    excerpt: 'Learn how to use artificial intelligence tools like ChatGPT and GitHub Copilot to create full web projects — combining HTML, CSS, and JavaScript efficiently.',
+    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800',
     content: `
-        <h2>Introduction to Python</h2>
-        <p>Python is a high-level, interpreted programming language known for its simplicity and readability. Created by Guido van Rossum and first released in 1991, Python emphasizes code clarity and productivity, making it ideal for beginners and professionals alike.</p>
-        
-        <h3>Why Learn Python?</h3>
-        <p>Python’s versatility and simplicity make it a great choice for a wide variety of applications:</p>
-        <ul>
-            <li>Web development (using frameworks like <strong>Django</strong> and <strong>Flask</strong>)</li>
-            <li>Data analysis and visualization (<strong>Pandas</strong>, <strong>NumPy</strong>, <strong>Matplotlib</strong>)</li>
-            <li>Machine learning and AI (<strong>TensorFlow</strong>, <strong>PyTorch</strong>, <strong>Scikit-learn</strong>)</li>
-            <li>Automation and scripting</li>
-            <li>Game development and IoT applications</li>
-        </ul>
-        
-        <h3>Setting Up Python</h3>
-        <p>To start coding in Python, follow these simple steps:</p>
-        <ol>
-            <li>Download and install Python from the <a href="https://www.python.org/downloads/">official website</a>.</li>
-            <li>Verify the installation by running <code>python --version</code> in your terminal or command prompt.</li>
-            <li>Use a code editor or IDE such as <strong>VS Code</strong>, <strong>PyCharm</strong>, or <strong>Jupyter Notebook</strong> for development.</li>
-        </ol>
+        <h2>Introduction</h2>
+        <p>Artificial Intelligence (AI) has revolutionized how we write code. Instead of starting from scratch, developers can now describe what they want — and AI tools can generate full HTML, CSS, and JavaScript programs in seconds.</p>
 
-        <h3>Core Python Concepts</h3>
-        <p>Before diving deep, it’s important to understand some fundamental Python concepts:</p>
+        <h3>Popular AI Tools for Web Development</h3>
         <ul>
-            <li><strong>Variables and Data Types:</strong> Strings, integers, floats, booleans, and lists.</li>
-            <li><strong>Control Structures:</strong> If-else statements, loops (for/while), and conditionals.</li>
-            <li><strong>Functions:</strong> Reusable blocks of code defined using <code>def</code>.</li>
-            <li><strong>Modules and Packages:</strong> Organize and reuse code effectively.</li>
-            <li><strong>Object-Oriented Programming:</strong> Classes, objects, and inheritance.</li>
+            <li><strong>ChatGPT:</strong> Great for generating, debugging, and explaining code in natural language.</li>
+            <li><strong>GitHub Copilot:</strong> An AI coding assistant integrated directly into your editor, suggesting lines and functions as you type.</li>
+            <li><strong>Replit Ghostwriter:</strong> AI assistant that helps build and deploy web projects right in the browser.</li>
         </ul>
 
-        <h3>Example Code</h3>
-        <pre><code class="language-python">
-# Simple Python Example
-def greet(name):
-    return f"Hello, {name}!"
+        <h3>How to Create a Simple Web App Using AI</h3>
+        <p>Let’s walk through an example of how AI can help you build a small interactive web program that combines <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.</p>
 
-print(greet("World"))
+        <h4>1. Describe Your Goal</h4>
+        <p>Start by clearly explaining what you want to the AI. For example:</p>
+        <pre><code>
+"Create a webpage with a button that changes the background color each time I click it."
         </code></pre>
 
-        <p>This small snippet defines a function called <code>greet()</code> that takes a name as input and prints a personalized message.</p>
+        <h4>2. Generate the Code</h4>
+        <p>The AI can produce a full example like this:</p>
+        <pre><code class="language-html">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title>Color Changer&lt;/title&gt;
+    &lt;style&gt;
+        body {
+            text-align: center;
+            margin-top: 100px;
+            font-family: Arial, sans-serif;
+            transition: background 0.3s;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;AI Web Program Demo&lt;/h1&gt;
+    &lt;button id="colorBtn"&gt;Change Color&lt;/button&gt;
+
+    &lt;script&gt;
+        const btn = document.getElementById('colorBtn');
+        btn.addEventListener('click', () =&gt; {
+            const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+            document.body.style.backgroundColor = randomColor;
+        });
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </code></pre>
+
+        <h4>3. Customize and Learn</h4>
+        <p>Once you get the AI-generated code, you can:</p>
+        <ul>
+            <li>Ask AI to explain each part of it</li>
+            <li>Request style improvements (e.g., "make it gradient background")</li>
+            <li>Combine more features like animations, forms, or API calls</li>
+        </ul>
+
+        <h3>Tips for Working Effectively with AI</h3>
+        <ul>
+            <li>Be <strong>specific</strong> in your prompts — describe what you want in detail.</li>
+            <li>Iterate — refine your request if the first answer isn’t perfect.</li>
+            <li>Learn from the AI’s code suggestions — treat it as a teacher, not just a tool.</li>
+        </ul>
 
         <h3>Conclusion</h3>
-        <p>Python is one of the most accessible and powerful programming languages today. Whether you’re automating tasks, analyzing data, or building web apps, mastering Python opens the door to countless opportunities in tech.</p>
-
-        <p>Start your Python journey today — write your first line of code and discover how simple it is to bring your ideas to life!</p>
+        <p>AI doesn’t replace developers — it empowers them. By combining your creativity with AI tools, you can build beautiful and functional web projects faster than ever. Whether you’re just starting with HTML, CSS, and JS or already a pro, AI-assisted development is the future of web programming.</p>
     `
 }
+
 
 ];
 
