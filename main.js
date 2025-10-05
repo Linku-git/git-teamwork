@@ -90,7 +90,40 @@ print(greet("World"))
 
         <p>Start your Python journey today — write your first line of code and discover how simple it is to bring your ideas to life!</p>
     `
-}
+},
+{
+    id: 'article-3',
+        title: 'Getting Started with Git',
+        author: 'Example Student',
+        created: 'October 5, 2025',
+        excerpt: 'Learn the basics of Git version control and how to collaborate with your team effectively.',
+        image: 'https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=800',
+        content: `
+            <h2>Introduction to Git</h2>
+            <p>Git is a distributed version control system that helps teams collaborate on code. It allows multiple developers to work on the same project simultaneously without conflicts.</p>
+            
+            <h3>Why Use Git?</h3>
+            <p>Git provides several benefits:</p>
+            <ul>
+                <li>Track changes in your code over time</li>
+                <li>Collaborate with team members efficiently</li>
+                <li>Revert to previous versions if needed</li>
+                <li>Work on different features in parallel using branches</li>
+            </ul>
+            
+            <h3>Basic Git Commands</h3>
+            <p>Here are some essential Git commands:</p>
+            <ul>
+                <li><strong>git clone:</strong> Copy a repository to your local machine</li>
+                <li><strong>git add:</strong> Stage changes for commit</li>
+                <li><strong>git commit:</strong> Save your changes</li>
+                <li><strong>git push:</strong> Upload your changes to the remote repository</li>
+                <li><strong>git pull:</strong> Download and merge changes from the remote repository</li>
+            </ul>
+            
+            <p>Mastering Git is essential for modern software development and collaboration!</p>
+        `
+    }
 
 ];
 
