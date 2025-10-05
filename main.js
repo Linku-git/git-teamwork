@@ -180,6 +180,74 @@ print(greet("World"))
         <p>Start your Python journey today — write your first line of code and discover how simple it is to bring your ideas to life!</p>
     `
 }
+,
+   {
+    id: 'article-3',
+    title: 'Introduction to Cloud Hosting',
+    author: 'Salah-eddine Akhouad',
+    created: 'October 5, 2025',
+    excerpt: 'Explore the fundamentals of cloud hosting, its benefits, and how it powers modern web applications.',
+    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800',
+    content: `
+        <h2>What is Cloud Hosting?</h2>
+        <p>Cloud hosting is a type of web hosting that uses multiple virtual servers to host websites and applications. Unlike traditional hosting, which relies on a single physical server, cloud hosting leverages a network of servers to provide scalability, reliability, and flexibility.</p>
+        
+        <h3>Benefits of Cloud Hosting</h3>
+        <p>Cloud hosting offers several advantages for businesses and developers:</p>
+        <ul>
+            <li><strong>Scalability:</strong> Easily scale resources up or down based on demand.</li>
+            <li><strong>Reliability:</strong> Distributed servers ensure high availability and minimal downtime.</li>
+            <li><strong>Cost Efficiency:</strong> Pay only for the resources you use.</li>
+            <li><strong>Global Reach:</strong> Content delivery networks (CDNs) provide fast access worldwide.</li>
+            <li><strong>Security:</strong> Advanced security measures protect data and applications.</li>
+        </ul>
+        
+        <h3>Popular Cloud Hosting Providers</h3>
+        <p>Some leading cloud hosting platforms include:</p>
+        <ul>
+            <li><strong>Amazon Web Services (AWS):</strong> Offers a wide range of cloud services like EC2 and S3.</li>
+            <li><strong>Microsoft Azure:</strong> Known for enterprise-grade solutions and hybrid cloud capabilities.</li>
+            <li><strong>Google Cloud Platform (GCP):</strong> Provides robust tools for AI and data analytics.</li>
+            <li><strong>DigitalOcean:</strong> Popular among developers for simplicity and affordability.</li>
+        </ul>
+        
+        <h3>Getting Started with Cloud Hosting</h3>
+        <p>To start with cloud hosting:</p>
+        <ol>
+            <li>Choose a provider based on your needs (e.g., AWS, Azure, or GCP).</li>
+            <li>Create an account and set up a virtual server or instance.</li>
+            <li>Deploy your application using tools like Docker or Kubernetes.</li>
+            <li>Configure DNS settings to point your domain to the cloud server.</li>
+            <li>Monitor performance and scale resources as needed.</li>
+        </ol>
+        
+        <h3>Example: Deploying a Simple App on AWS</h3>
+        <p>Here’s a basic example of how you might deploy a Node.js app on AWS EC2:</p>
+        <pre><code class="language-bash">
+# Connect to your EC2 instance
+ssh -i your-key.pem ec2-user@your-ec2-public-ip
+
+# Install Node.js
+sudo yum install -y nodejs
+
+# Clone your app repository
+git clone https://github.com/your-repo/your-app.git
+
+# Navigate to app directory and install dependencies
+cd your-app
+npm install
+
+# Start the application
+node app.js
+        </code></pre>
+        
+        <p>This example sets up a basic Node.js application on an AWS EC2 instance.</p>
+        
+        <h3>Conclusion</h3>
+        <p>Cloud hosting is transforming how applications are deployed and managed. Its flexibility and scalability make it ideal for startups, enterprises, and developers. Start exploring cloud hosting today to build robust, scalable applications!</p>
+    `
+} 
+
 
 ];
 
